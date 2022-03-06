@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import "./App.css";
 
-const baseURL = "http://localhost:3001/api/cardiac-services";
+const baseURL = "https://cardiac-service-backend.herokuapp.com/api/cardiac-services";
 
 const App = () => {
   const [cardiacpost, setCardiacPost] = useState([]);
